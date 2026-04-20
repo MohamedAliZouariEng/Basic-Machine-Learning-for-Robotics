@@ -42,7 +42,7 @@ The script generates a **decision boundary plot** with:
 - Custom images (coffee icons) representing each data point
 - "OK" (green) and "WRONG" (red) labels for correct/incorrect predictions
 
-![Decision Boundary Example](./images/Figure_1.png)
+![Decision Boundary Example](./images/decision_boundary.png)
 
 
 ## 🚀 Getting Started
