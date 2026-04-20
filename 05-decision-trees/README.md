@@ -7,7 +7,7 @@
 ## 📋 Overview
 
 This project demonstrates **Decision Tree Classifiers** applied to the famous **Iris Dataset**. It visualizes how different tree depths (`max_depth=2`, `4`, and `5`) affect the decision boundaries and model complexity. Perfect for understanding the trade-off between underfitting and overfitting in tree-based models.
-![Decision Tree](./images/decision_tree_max_depth_4.png)
+![Decision Tree](decision_tree_max_depth_4.png)
 ## 🎯 Key Features
 
 - ✅ Loads and preprocesses the Iris dataset
