@@ -36,7 +36,7 @@ print(f"Test Accuracy: {test_acc:.2f}")
 
 model.save('final_model.keras')
 
-plot_model(model, to_file='model_architecture.png', show_shaps=True, show_layer_names=True)
+plot_model(model, to_file='model_architecture.png', show_shapes=True, show_layer_names=True)
 
 img = plt.imread('model_architecture.png')
 plt.figure(figsize=(10,10))
