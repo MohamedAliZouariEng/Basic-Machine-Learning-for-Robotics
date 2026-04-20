@@ -87,9 +87,9 @@ def plot_decision_boundary_with_images(X, y, model, title, xlabel, ylabel, img_p
     plt.show()
 
 
-img_paths = {0: "./images/coffee1.png",
-             1: "./images/coffee2.png",
-             2: "./images/coffee3.png"}
+img_paths = {0: "./images/iris_setosa.png",
+             1: "./images/iris_versicolor.png",
+             2: "./images/iris_virginica.png"}
 
 plot_decision_boundary_with_images(X_test_red, y_test, model, "Logistic Regression Decision Boundary with Images", feature_1_name, feature_2_name, img_paths)
 
