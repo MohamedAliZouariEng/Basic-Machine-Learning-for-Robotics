@@ -88,11 +88,12 @@ def plot_decision_boundary_with_images(X, y, y_pred, model, title, xlabel, ylabe
             annotation = 'WRONG'
             color = "red"
             ax.text(X[i,0] - 0.1, X[i,1] + 0.3, annotation, color=color, fontsize=fontsize, weight='bold')
-    plt.show()
+    plt.savefig('decision_boundary.png', dpi=150, bbox_inches='tight')
+    print("Plot saved as 'decision_boundary.png'")
 
 
-img_paths = {0: "./images/coffee1.png",
-             1: "./images/coffee2.png"}
+img_paths = {0: "images/iris_setosa.png",
+             1: "images/iris_versicolor.png"}
 
 plot_decision_boundary_with_images(X_test_red, y_test, y_pred_red, model, "Perceptron Decision Boundary with Images", feature_1_name, feature_2_name, img_paths)
 
