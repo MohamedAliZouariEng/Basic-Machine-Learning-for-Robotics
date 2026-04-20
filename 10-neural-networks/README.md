@@ -84,9 +84,6 @@ python3 neural-networks.py
 ```
 
 
-> **Note**: You may need to install Graphviz system-wide:
-> - **Ubuntu/Debian**: `sudo apt-get install graphviz`
-
 ## 🚀 Usage
 
 ### Training the Model
@@ -112,24 +109,6 @@ visualize_prediction()
 # Predict specific index
 visualize_prediction(index=42)
 ```
-
-## 🎨 Visual Outputs
-
-### Model Architecture Diagram
-The script generates a visual representation of the neural network architecture using `plot_model()`.
-
-### Prediction Visualization
-Random test images are displayed with:
-- 🔵 **Actual label** (ground truth)
-- 🟢 **Predicted label** (model output)
-
-## 🤖 Robotics Applications
-
-This neural network demonstrates concepts crucial for robotics:
-- **Computer Vision**: Recognizing digits from camera input
-- **Pattern Recognition**: Learning from labeled examples
-- **Real-time Inference**: Fast predictions for robot decision-making
-- **Model Deployment**: Saving/loading models for robotic systems
 
 
 ## 📚 References
